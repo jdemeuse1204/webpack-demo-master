@@ -1,4 +1,4 @@
-﻿var layoutTemplate = require('html!../layout/layout.html');
+﻿var layoutTemplate = require('html!v/layout/layout.html');
 
 
 var nav;

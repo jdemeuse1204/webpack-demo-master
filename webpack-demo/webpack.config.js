@@ -9,7 +9,9 @@ module.exports = {
     resolve: {
         extensions: ['', '.js', 'min.js'],
         alias: {
-            "jquery": path.resolve("./Scripts/kendo/2016.3.914/jquery.min.js")
+            "jquery": path.resolve("Scripts/kendo/2016.3.914/jquery.min.js"),
+            v: path.join(__dirname, 'App/views'),
+            k: path.resolve("Scripts/kendo/2016.3.914") 
         },
         root: [
                 path.resolve('.'),
